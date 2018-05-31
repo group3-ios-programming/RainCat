@@ -109,7 +109,7 @@
 		E757688D20B5F61600CBCAD6 /* Papaya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E757688320B5F61600CBCAD6 /* Papaya.mp3 */; };
 		E757688E20B5F61600CBCAD6 /* Pineapple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E757688420B5F61600CBCAD6 /* Pineapple.mp3 */; };
 		E757688F20B5F61600CBCAD6 /* Strawberry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E757688520B5F61600CBCAD6 /* Strawberry.mp3 */; };
-		E78C518620AB3B05001F6740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB046BB61EA157FC001035EB /* LaunchScreen.storyboard */; };
+		E7DC674320BF4AB700455C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DC674220BF4AB700455C17 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -126,7 +126,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BB046BB61EA157FC001035EB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "/Users/son/Desktop/RainCat-2.0.0/RainCat/LaunchScreen.storyboard"; sourceTree = "<absolute>"; };
 		BB0B1C871D8C9BA900C09901 /* LogoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogoScene.swift; path = Scenes/LogoScene.swift; sourceTree = "<group>"; };
 		BB0C20541E9EDAE8004C8E84 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaultsManager.swift; path = Utility/UserDefaultsManager.swift; sourceTree = "<group>"; };
 		BB35FD821EBBA06A00D58F68 /* CreditLabelButtonSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditLabelButtonSprite.swift; sourceTree = "<group>"; };
@@ -193,7 +192,7 @@
 		BB869EB91EB9360A0072A193 /* CurtainSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurtainSprite.swift; sourceTree = "<group>"; };
 		BB95F4DA1EA57BF50040553D /* TimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimingFunctions.swift; path = Utility/TimingFunctions.swift; sourceTree = "<group>"; };
 		BB98D4801DC3A49C00D17C8D /* LCDScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = LCDScene.sks; path = Scenes/LCDScene.sks; sourceTree = "<group>"; };
-		BBA2E4A21D74A62C00853E63 /* RainCat.app */ = {isa = PBXFileReference; explicitFileType = "wrapper.pb-project"; includeInIndex = 0; path = RainCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA2E4A21D74A62C00853E63 /* RainCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA2E4A51D74A62C00853E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBA2E4AB1D74A62C00853E63 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = Scenes/GameScene.swift; sourceTree = "<group>"; };
 		BBA2E4AD1D74A62C00853E63 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ViewControllers/GameViewController.swift; sourceTree = "<group>"; };
@@ -232,6 +231,7 @@
 		E757688320B5F61600CBCAD6 /* Papaya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Papaya.mp3; path = Support/SFX/Papaya.mp3; sourceTree = "<group>"; };
 		E757688420B5F61600CBCAD6 /* Pineapple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Pineapple.mp3; path = Support/SFX/Pineapple.mp3; sourceTree = "<group>"; };
 		E757688520B5F61600CBCAD6 /* Strawberry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Strawberry.mp3; path = Support/SFX/Strawberry.mp3; sourceTree = "<group>"; };
+		E7DC674220BF4AB700455C17 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RainCat/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,9 +307,9 @@
 				BBCE0A491D8D08EA006C1F44 /* Assets.xcassets */,
 				BBD0A8E41D79D4EB00002F71 /* Fonts */,
 				BBA2E4AF1D74A62C00853E63 /* Main.storyboard */,
-				BB046BB61EA157FC001035EB /* LaunchScreen.storyboard */,
 				BBD0A8DB1D78F0F100002F71 /* Music */,
 				BB281B7A1D7899AB00229A97 /* SFX */,
+				E7DC674220BF4AB700455C17 /* LaunchScreen.storyboard */,
 			);
 			name = Support;
 			sourceTree = "<group>";
@@ -614,8 +614,8 @@
 				E757688F20B5F61600CBCAD6 /* Strawberry.mp3 in Resources */,
 				BB459C4B1E9EB16B0027CA9B /* cat_meow_6.wav in Resources */,
 				BB476FB11F05636A005EB2AF /* lcd-pickup.wav in Resources */,
-				E78C518620AB3B05001F6740 /* LaunchScreen.storyboard in Resources */,
 				E757688920B5F61600CBCAD6 /* Grape.mp3 in Resources */,
+				E7DC674320BF4AB700455C17 /* LaunchScreen.storyboard in Resources */,
 				E757688B20B5F61600CBCAD6 /* Mango.mp3 in Resources */,
 				E757688A20B5F61600CBCAD6 /* Lemon.mp3 in Resources */,
 				BB459C4C1E9EB16B0027CA9B /* cat_meow_7.mp3 in Resources */,
@@ -846,7 +846,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thirteen23.rain-cat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -865,7 +865,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thirteen23.rain-cat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
